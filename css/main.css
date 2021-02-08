@@ -1,0 +1,108 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.clear:after {content: ''; display: block; clear: both;}
+#wrap {width:100%; height:100%; _margin:10px; _padding: 10px; font-family:'NEXON Lv1 Gothic OTF';}
+/*header*/
+#header_logo {float:left; padding:20px; top:80px;}
+#header_logo img {width: 100px; height:100px;}
+#header_logo h1 {width: 112px; height:32px;}
+h1 {position:relative; top:80px;}
+#header_menu {float:right; padding:0px 20px 0px 20px;}
+#header_menu #util_menu {
+    display:flex;
+    flex-direction:row;
+}
+#header_menu #util_menu li {
+    padding: 0px 10px;
+    border-right: 20px;
+}
+/*상단정보*/
+
+#information {text-align: center; line-height:40px;}
+/*슬라이드*/
+#slide {background-color:#f8f8f8; height:500px; width: 100%;}
+#slide #main_cake {width:1400px; margin:auto; }
+#slide #main_cake img {float:left;}
+#slide #main_cake img {width: 250px; margin-right:100px; margin-top:50px;}
+#main_cake a>img {
+    -webkit-transition:all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -moz-transition: all 1.5 ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+#main_cake a>img:hover{
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+a:hover {opacity:0.5;}
+
+/*
+#slide #main_cake #cake1 {position:absolute; left: 165px; top: 200px; }
+#slide #main_cake #cake2 {position:absolute; left: 530px; top: 200px;}
+#slide #main_cake #cake3 {position:absolute; left: 895px; top: 200px;}
+#slide #main_cake #cake4 {position:absolute; left: 1260px; top: 200px;}
+*/
+
+/*공지사항*/
+/*자주묻는질문*/
+#content {width: 1400px; margin:auto;}
+#notice {width: 700px; float:left; position:relative; top:80px;}
+#question {width: 700px; float:left; position:relative; top:45px;}
+.img1 {display: block; width:100px; position:relative; top:40px;}
+.img2 {display: block; width:150px;}
+#tr, th, td {
+    height:40px;
+    _border: 1px solid black;
+}
+td,tr {text-align:center;}
+
+/*제작작품*/
+#piece {width: 1400px; margin:auto; position:relative; margin-top:100px;}
+#piece p>img {padding-bottom:30px;}
+#piece #slide2 .img1 {position:absolute; width: 100px; height: 100px; top: 50%; left:-100px;}
+#piece #slide2 .img2 {
+    width: 100px; height: 100px;
+    position:absolute; right:-100px; top:50%;
+}
+#piece .piece_img {background-color: #f8f8f8; margin:auto;}
+#piece .piece_img img {width:25%; _height:200px; float: left; padding:1%}
+#piece_play {background: #f8f8f8; height: 500px;}
+#piece_play a i{text-align:center;}
+
+/*케익주문*/
+#cake {width: 1400px; margin:auto; margin-top:100px; margin-bottom:300px;line-height: 30px;}
+#cake_order_way {width: 50%; float:left;}
+#cake_order_way p>img {padding-bottom: 30px;}
+#cake_order {width:50%; float: left;}
+#cake_order p>img {padding-bottom:30px;}
+.order1-1 {width:35%; transform:rotate(-10deg); margin-top:50px; opacity:0.8;}
+.order1-2 {transform:rotate(10deg); margin-top:50px; padding-left: 50px; opacity:0.8;}
+
+/*수강신청*/
+#sign_up_class {width: 1400px; margin:auto; margin-top:100px; line-height: 30px; margin-bottom:300px;}
+#sign_up_way {width:50%; float:left;}
+#sign_up_way p>img {padding-bottom:30px;}
+#sign_up_way>img {width:30%; padding-top:50px; opacity: 0.8;}
+#sign_up_class2 {width:50%; float:left;}
+#sign_up_class2 p>img {padding-bottom:30px;}
+
+/*오시는길*/
+#map_wrap {width:100%; background: #f8f8f8;}
+#map {width:1400px; margin:auto; padding-top:100px; padding-bottom: 100px; line-height: 30px;}
+#direction {width:50%; float:left;}
+#direction p>img {padding-bottom:30px;}
+#direction_notice {width:50%; float:left;}
+/*푸터*/
+footer {
+    width:100%; height: 80px; line-height: 80px; text-align: center;
+    background:#f8f8f8; color: darkred;
+}
